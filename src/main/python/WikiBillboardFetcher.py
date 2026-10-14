@@ -1,3 +1,4 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -84,7 +85,7 @@ if __name__ == "__main__":
     end_year = 2023  # End year for scraping
 
     # Directory path
-    directory = 'BillboardExplain/data'
+    directory = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..')), 'data')
     
     # Create the directory if it doesn't exist
     os.makedirs(directory, exist_ok=True)
