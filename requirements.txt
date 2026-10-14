@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+scipy
+scikit-learn
+seaborn
+statsmodels
+tqdm
+requests
+spotipy
+xgboost
+mord
+bs4
+unidecode
+zstandard
