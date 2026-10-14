@@ -1,8 +1,9 @@
+import os
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 # Load the dataset
-file_path = 'BillboardExplain/data/music_dataset_with_rank_category.csv'
+file_path = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..')), 'data', 'music_dataset_with_rank_category.csv')
 data = pd.read_csv(file_path)
 
 # Encode Rank Category as an ordinal variable
@@ -22,5 +23,5 @@ scaler = StandardScaler()
 data[features_to_normalize] = scaler.fit_transform(data[features_to_normalize])
 
 # Save the processed dataset to a new CSV file
-output_file_path = 'BillboardExplain/data/processed_music_dataset.csv'
+output_file_path = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..')), 'data', 'processed_music_dataset.csv')
 data.to_csv(output_file_path, index=False)
