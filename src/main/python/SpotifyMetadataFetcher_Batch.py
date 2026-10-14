@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
@@ -150,7 +151,7 @@ def search_track_with_retries(query, spotify, retries=5):
 
 def main():
     # Directory path
-    directory = 'BillboardExplain/data'
+    directory = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..')), 'data')
     
     # Create the directory if it doesn't exist
     os.makedirs(directory, exist_ok=True)
