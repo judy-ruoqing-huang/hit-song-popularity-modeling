@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import requests
 from pandas import json_normalize
@@ -10,7 +11,7 @@ import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Directory path
-directory = 'BillboardExplain/data'
+directory = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..')), 'data')
 os.makedirs(directory, exist_ok=True)
 
 # Read Spotify API credentials from a CSV file
