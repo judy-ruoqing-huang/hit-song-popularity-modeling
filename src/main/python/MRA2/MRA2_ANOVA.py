@@ -1,9 +1,10 @@
 # Import necessary libraries
+import os
 from scipy.stats import f_oneway
 import pandas as pd
 
 # Load the dataset
-file_path = 'BillboardExplain/data/processed_music_dataset.csv'
+file_path = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..')), 'data', 'processed_music_dataset.csv')
 data = pd.read_csv(file_path)
 
 # Define the musical features and rank category
@@ -30,7 +31,7 @@ print("ANOVA Results (F-statistic and p-value) between Musical Features and Rank
 print(anova_results_df)
 
 # Output results to a file
-output_file_path = 'BillboardExplain/data/anova_results.txt'
+output_file_path = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..')), 'data', 'anova_results.txt')
 anova_results_df.to_string(output_file_path)
 
 print(f"Results saved to: {output_file_path}")
