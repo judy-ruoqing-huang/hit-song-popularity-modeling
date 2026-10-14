@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import json
 import os
@@ -27,7 +28,7 @@ def extract_columns_from_json(json_data):
     return columns
 
 # Directory path
-directory = 'BillboardExplain/data'
+directory = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..')), 'data')
 
 # Create the directory if it doesn't exist
 os.makedirs(directory, exist_ok=True)
