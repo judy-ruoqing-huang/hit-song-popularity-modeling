@@ -1,9 +1,10 @@
+import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
 # Load the dataset
-file_path = 'BillboardExplain/data/processed_music_dataset.csv'
+file_path = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..')), 'data', 'processed_music_dataset.csv')
 data = pd.read_csv(file_path)
 
 # Box Plot for Energy vs Rank Category
