@@ -1,4 +1,3 @@
-Model,R sqr. Score,MSE
-Lasso,0.0121,870.0631
-Elastic Net,0.0118,870.3595
-Linear Regression,0.0114,870.7275
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bf23dc46d00e22597df8af3ef06c67fb98ea20d8f43fe10213b483d87ac80ee
+size 111

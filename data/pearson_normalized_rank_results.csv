@@ -1,12 +1,3 @@
-Feature,Correlation,p-value
-Danceability,-0.0505,0.0
-Energy,0.0226,0.0648
-Instrumentalness,-0.0046,0.7082
-Liveness,0.0072,0.555
-Speechiness,0.0116,0.3408
-Valence,-0.0013,0.9178
-Loudness,-0.0144,0.2391
-Tempo,0.0059,0.6273
-Key,0.0177,0.1487
-Mode,0.0215,0.0781
-Time Signature,-0.0034,0.7827
+version https://git-lfs.github.com/spec/v1
+oid sha256:a77f62df169af83eb7321634cc9c199c1e9fb02eccb7dde6b15dfdb425818496
+size 300
