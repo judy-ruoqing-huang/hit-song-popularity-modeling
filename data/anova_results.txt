@@ -1,0 +1,9 @@
+                  F-statistic       p-value
+Danceability         0.542435  7.045780e-01
+Energy              16.509655  1.810780e-13
+Instrumentalness     1.174949  3.196160e-01
+Liveness             0.291163  8.838715e-01
+Speechiness          2.859818  2.212233e-02
+Valence              0.264962  9.005778e-01
+Loudness             3.773231  4.541823e-03
+Tempo                0.763653  5.487684e-01

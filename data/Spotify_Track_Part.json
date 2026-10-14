@@ -1,0 +1,47 @@
+{
+    "year": 2023,
+    "rank": 1,
+    "artists": [
+        {
+            "followers": {
+            "total": 0
+          },
+          "genres": [
+            "Prog rock",
+            "Grunge"
+          ],
+          "name": "string"
+        }
+      ],
+    "id": "string",
+    "name": "string",
+    "popularity": 0,
+  
+    "audio_features": [
+        {
+            "danceability": 0.585,
+            "energy": 0.842,
+            "instrumentalness": 0.00686,
+            "liveness": 0.0866,
+            "speechiness": 0.0556,
+            "valence": 0.428
+        }
+    ],
+        
+    "audio_analysis": {
+      "track": [
+        {
+          "loudness": -5.883,
+          "tempo": 118.211,
+          "tempo_confidence": 0.73,
+          "time_signature": 4,
+          "time_signature_confidence": 0.994,
+          "key": 9,
+          "key_confidence": 0.408,
+          "mode": 0,
+          "mode_confidence": 0.485
+        }
+      ]
+    }
+  }
+  

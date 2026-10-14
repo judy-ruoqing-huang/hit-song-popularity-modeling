@@ -1,0 +1,4 @@
+Model,R sqr. Score,MSE
+Lasso,0.0121,870.0631
+Elastic Net,0.0118,870.3595
+Linear Regression,0.0114,870.7275

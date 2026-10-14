@@ -1,0 +1,8 @@
+Danceability       -0.014730
+Energy              0.082883
+Instrumentalness    0.008765
+Liveness           -0.011337
+Speechiness        -0.002691
+Valence             0.004724
+Loudness            0.040223
+Tempo               0.021006

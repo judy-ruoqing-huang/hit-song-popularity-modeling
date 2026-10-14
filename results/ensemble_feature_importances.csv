@@ -1,0 +1,24 @@
+Feature,Random Forest Importance,Gradient Boosting Importance
+Danceability,0.1048,0.1028
+Energy,0.1123,0.1003
+Instrumentalness,0.0929,0.1201
+Liveness,0.0908,0.0445
+Speechiness,0.0847,0.0252
+Valence,0.1126,0.1188
+Loudness,0.2354,0.4165
+Tempo,0.0851,0.0394
+Time Signature,0.0065,0.0048
+Key (0 = C),0.0067,0.002
+Key (1 = C♯/D♭),0.0056,6.06e-04
+Key (2 = D),0.0054,7.14e-04
+Key (3 = D♯/E♭),0.0037,0.0022
+Key (4 = E),0.0048,2.79e-04
+Key (5 = F),0.0056,0.00e+00
+Key (6 = F♯/G♭),0.0046,1.93e-04
+Key (7 = G),0.0069,1.67e-04
+Key (8 = G♯/A♭),0.0041,0.00e+00
+Key (9 = A),0.0056,0.0015
+Key (10 = A♯/B♭),0.0055,0.0025
+Key (11 = B),0.0058,0.0015
+Mode (0 = Minor),0.0054,0.0072
+Mode (1 = Major),0.0055,0.0087

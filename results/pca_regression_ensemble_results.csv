@@ -1,0 +1,2 @@
+Feature,Pearson Correlation (r),Pearson p-value,Spearman Correlation (ρ),Spearman p-value,Linear Regression R²,Lasso R²,Elastic Net R²,Random Forest R²,Gradient Boosting R²
+PC1,0.3332,4.25e-173,0.3102,3.73e-149,0.1110100611796413,0.11099501553733504,0.11090323342748343,-0.2201866775514884,0.10290984963397296

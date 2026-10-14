@@ -1,0 +1,4 @@
+Model,R² Score,MSE
+Lasso,0.2003,282.8025
+Elastic Net,0.1996,283.0441
+Linear Regression,0.2006,282.7022

@@ -1,0 +1,11 @@
+Gradient Boosting Model Accuracy: 0.21076233183856502
+
+Feature Importances:
+Danceability        0.136760
+Energy              0.151342
+Instrumentalness    0.078959
+Liveness            0.135783
+Speechiness         0.117320
+Valence             0.106993
+Loudness            0.148729
+Tempo               0.124115

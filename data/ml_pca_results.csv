@@ -1,0 +1,12 @@
+Feature,Gradient Boosting Importance,Random Forest Importance,PCA Loading
+Danceability,0.0869,0.1061,0.4421
+Energy,0.1063,0.1196,0.5562
+Instrumentalness,0.1226,0.0968,0.1262
+Liveness,0.0498,0.0927,0.0608
+Speechiness,0.0255,0.0899,0.3127
+Valence,0.1284,0.1148,0.6589
+Loudness,0.4289,0.2371,0.5557
+Tempo,0.0271,0.0857,0.0819
+Key,0.0072,0.0418,0.068
+Mode,0.0124,0.009,0.2612
+Time Signature,0.005,0.0063,0.3355

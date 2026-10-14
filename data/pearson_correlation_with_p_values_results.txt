@@ -1,0 +1,9 @@
+                  Pearson Correlation       p-value
+Danceability                -0.002833  8.167936e-01
+Energy                       0.095518  4.960610e-15
+Instrumentalness            -0.017364  1.556530e-01
+Liveness                     0.002230  8.553290e-01
+Speechiness                  0.015868  1.944601e-01
+Valence                      0.009096  4.570397e-01
+Loudness                     0.032227  8.395002e-03
+Tempo                        0.017164  1.604693e-01

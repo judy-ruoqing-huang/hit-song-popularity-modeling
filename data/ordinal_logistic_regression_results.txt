@@ -1,0 +1,11 @@
+Model Accuracy: 0.1833582461385152
+
+Feature Coefficients:
+Danceability       -0.008825
+Energy              0.299021
+Instrumentalness   -0.047372
+Liveness           -0.042078
+Speechiness         0.042002
+Valence            -0.110231
+Loudness           -0.173774
+Tempo              -0.004856

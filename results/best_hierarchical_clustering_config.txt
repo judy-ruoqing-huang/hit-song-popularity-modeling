@@ -1,0 +1,4 @@
+Best configuration:
+Linkage Method: complete
+Number of Clusters: 2
+Silhouette Score: 0.9531

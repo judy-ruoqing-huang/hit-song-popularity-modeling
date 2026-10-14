@@ -1,0 +1,220 @@
+{
+  "year": 2023,
+  "rank": 1,
+  "album": {
+      "album_type": "compilation",
+      "total_tracks": 9,
+      "available_markets": [
+        "CA",
+        "BR",
+        "IT"
+      ],
+      "external_urls": {
+        "spotify": "string"
+      },
+      "href": "string",
+      "id": "2up3OPMp9Tb4dAKM2erWXQ",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02ff9ca10b55ce82ae553c8228",
+          "height": 300,
+          "width": 300
+        }
+      ],
+      "name": "string",
+      "release_date": "1981-12",
+      "release_date_precision": "year",
+      "restrictions": {
+        "reason": "market"
+      },
+      "type": "album",
+      "uri": "spotify:album:2up3OPMp9Tb4dAKM2erWXQ",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "string"
+          },
+          "href": "string",
+          "id": "string",
+          "name": "string",
+          "type": "artist",
+          "uri": "string"
+        }
+      ]
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "string"
+        },
+        "followers": {
+          "href": "string",
+          "total": 0
+        },
+        "genres": [
+          "Prog rock",
+          "Grunge"
+        ],
+        "href": "string",
+        "id": "string",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02ff9ca10b55ce82ae553c8228",
+            "height": 300,
+            "width": 300
+          }
+        ],
+        "name": "string",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "string"
+      }
+    ],
+    "available_markets": [
+      "string"
+    ],
+    "disc_number": 0,
+    "duration_ms": 0,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "string",
+      "ean": "string",
+      "upc": "string"
+    },
+    "external_urls": {
+      "spotify": "string"
+    },
+    "href": "string",
+    "id": "string",
+    "is_playable": false,
+    "linked_from": {},
+    "restrictions": {
+      "reason": "string"
+    },
+    "name": "string",
+    "popularity": 0,
+    "preview_url": "string",
+    "track_number": 0,
+    "type": "track",
+    "uri": "string",
+    "is_local": false,
+
+    "audio_features": [
+        {
+          "acousticness": 0.00242,
+          "analysis_url": "https://api.spotify.com/v1/audio-analysis/2takcwOaAZWiXQijPHIx7B",
+          "danceability": 0.585,
+          "duration_ms": 237040,
+          "energy": 0.842,
+          "id": "2takcwOaAZWiXQijPHIx7B",
+          "instrumentalness": 0.00686,
+          "key": 9,
+          "liveness": 0.0866,
+          "loudness": -5.883,
+          "mode": 0,
+          "speechiness": 0.0556,
+          "tempo": 118.211,
+          "time_signature": 4,
+          "track_href": "https://api.spotify.com/v1/tracks/2takcwOaAZWiXQijPHIx7B",
+          "type": "audio_features",
+          "uri": "spotify:track:2takcwOaAZWiXQijPHIx7B",
+          "valence": 0.428
+        }
+      ],
+
+    "audio_analysis": {
+      "meta": {
+        "analyzer_version": "4.0.0",
+        "platform": "Linux",
+        "detailed_status": "OK",
+        "status_code": 0,
+        "timestamp": 1495193577,
+        "analysis_time": 6.93906,
+        "input_process": "libvorbisfile L+R 44100->22050"
+      },
+      "track": [
+        {
+          "num_samples": 4585515,
+          "duration": 207.95985,
+          "sample_md5": "string",
+          "offset_seconds": 0,
+          "window_seconds": 0,
+          "analysis_sample_rate": 22050,
+          "analysis_channels": 1,
+          "end_of_fade_in": 0,
+          "start_of_fade_out": 201.13705,
+          "loudness": -5.883,
+          "tempo": 118.211,
+          "tempo_confidence": 0.73,
+          "time_signature": 4,
+          "time_signature_confidence": 0.994,
+          "key": 9,
+          "key_confidence": 0.408,
+          "mode": 0,
+          "mode_confidence": 0.485,
+          "codestring": "string",
+          "code_version": 3.15,
+          "echoprintstring": "string",
+          "echoprint_version": 4.15,
+          "synchstring": "string",
+          "synch_version": 1,
+          "rhythmstring": "string",
+          "rhythm_version": 1
+        }
+      ],
+      "bars": [
+        {"start": 0.0, "duration": 1.2, "confidence": 0.7}
+      ],
+      "beats": [
+        {
+          "start": 0.49567,
+          "duration": 2.18749,
+          "confidence": 0.925
+        }
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "duration": 6.97092,
+          "confidence": 1,
+          "loudness": -14.938,
+          "tempo": 113.178,
+          "tempo_confidence": 0.647,
+          "key": 9,
+          "key_confidence": 0.297,
+          "mode": -1,
+          "mode_confidence": 0.471,
+          "time_signature": 4,
+          "time_signature_confidence": 1
+        }
+      ],
+      "segments": [
+        {
+          "start": 0.70154,
+          "duration": 0.19891,
+          "confidence": 0.435,
+          "loudness_start": -23.053,
+          "loudness_max": -14.25,
+          "loudness_max_time": 0.07305,
+          "loudness_end": 0,
+          "pitches": [
+            0.212,
+            0.141,
+            0.294
+          ],
+          "timbre": [
+            42.115,
+            64.373,
+            -0.233
+          ]
+        }
+      ],
+      "tatums": [
+        {
+          "start": 0.49567,
+          "duration": 2.18749,
+          "confidence": 0.925
+        }
+      ]
+    }
+}

@@ -1,0 +1,11 @@
+Random Forest Model Accuracy: 0.20079720976581963
+
+Feature Importances:
+Danceability        0.129839
+Energy              0.131142
+Instrumentalness    0.087046
+Liveness            0.129598
+Speechiness         0.129067
+Valence             0.129180
+Loudness            0.132484
+Tempo               0.131645

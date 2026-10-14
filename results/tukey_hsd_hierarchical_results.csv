@@ -1,0 +1,4 @@
+Group1,Group2,Mean Difference,P-Value,Lower CI,Upper CI,Reject
+0,1,14.0084,0.0,12.2737,15.7432,True
+0,2,-40.5507,0.0003,-65.0829,-16.0185,True
+1,2,-54.5591,0.0,-79.0421,-30.0762,True
