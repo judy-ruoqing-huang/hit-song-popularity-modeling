@@ -1,11 +1,12 @@
 # Import necessary libraries
+import os
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import xgboost as xgb
 
 # Load the dataset
-file_path = 'BillboardExplain/data/processed_music_dataset.csv'
+file_path = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..')), 'data', 'processed_music_dataset.csv')
 data = pd.read_csv(file_path)
 
 # Define features (X) and target (y)
@@ -40,7 +41,7 @@ feature_importances = pd.Series(xgb_model.feature_importances_, index=columns_to
 print("Feature Importances:\n", feature_importances)
 
 # Output results to a file
-output_file_path = 'BillboardExplain/data/xgboost_results.txt'
+output_file_path = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..')), 'data', 'xgboost_results.txt')
 with open(output_file_path, 'w') as f:
     f.write(f"XGBoost Model Accuracy: {accuracy}\n\n")
     f.write("Feature Importances:\n")
