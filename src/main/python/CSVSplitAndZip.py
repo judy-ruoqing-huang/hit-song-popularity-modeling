@@ -1,4 +1,5 @@
 import os
+import os
 import math
 import zstandard as zstd
 
@@ -79,7 +80,7 @@ def decompress_and_merge(split_files, output_file):
 
 # Example usage
 # Directory path
-directory = 'BillboardExplain/data/group_0'
+directory = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..')), 'data', 'group_0')
 
 # Create the directory if it doesn't exist
 os.makedirs(directory, exist_ok=True)
