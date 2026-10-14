@@ -1,9 +1,10 @@
 # Import necessary libraries
+import os
 from scipy.stats import spearmanr
 import pandas as pd
 
 # Load the dataset
-file_path = 'BillboardExplain/data/processed_music_dataset.csv'
+file_path = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..')), 'data', 'processed_music_dataset.csv')
 data = pd.read_csv(file_path)
 
 # Define features (X) and target (y)
@@ -27,7 +28,7 @@ print("Spearman Rank Correlation between Rank Category and Musical Features:\n")
 print(spearman_corr_series)
 
 # Output results to a file
-output_file_path = 'BillboardExplain/data/spearman_rank_correlation_results.txt'
+output_file_path = os.path.join(os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..')), 'data', 'spearman_rank_correlation_results.txt')
 spearman_corr_series.to_string(output_file_path)
 
 print(f"Results saved to: {output_file_path}")
